@@ -1,2 +1,4 @@
 from .aspectawarepreprocessor import AspectAwarePreprocessor
-
+from .meanpreprocessor import MeanPreprocessor
+from .patchpreprocessor import PatchPreprocessor
+from .croppreprocessor import CropPreprocessor
