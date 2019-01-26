@@ -6,13 +6,13 @@ from pipeline.preprocessing import MeanPreprocessor
 from pipeline.preprocessing import CropPreprocessor
 from pipeline.io import HDF5DatasetGenerator
 from pipeline.utils.ranked import rank5_accuracy
-from keras.model import load_model
+from keras.models import load_model
 import numpy as np
 import progressbar
 import json
 
 # load the RGB means for the training set
-means = json.load(open(config.DATASET_MEAN).read())
+means = json.loads(open(config.DATASET_MEAN).read())
 
 # initialize the image preprocessors
 sp = SimplePreprocessor(227, 227)
@@ -70,4 +70,3 @@ print("[INFO] predicting on test data (with crops)...")
 (rank1, _) = rank5_accuracy(predictions, testGen.db["labels"])
 print("[INFO] rank-1: {:.2f}%".format(rank1 * 100))
 testGen.close()
- 
