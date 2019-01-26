@@ -29,7 +29,6 @@ model.fit(db["features"][:i], db["labels"][:i])
 print("[INFO] best hyperparameters: {}".format(model.best_params_))
 # model = LogisticRegression(C = 0.001)
 # model.fit(db["features"][:i], db["labels"][:i])
-# print("[INFO] best hyperparameters: {}".format(0.001))
 
 # generate a classification report for the model
 print("[INFO] evaluating...")
