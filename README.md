@@ -25,8 +25,7 @@ The dataset is from [Kaggle Dogs vs. Cats](https://www.kaggle.com/c/dogs-vs-cats
 
 Figure 1 shows examples of the cat and the dog.
 
-<img src="https://github.com/meng1994412/dogs_vs_cats/blob/master/output/cat_example.jpg" height="200">
-<img src="https://github.com/meng1994412/dogs_vs_cats/blob/master/output/dog_example.jpg" height="200">
+<img src="https://github.com/meng1994412/dogs_vs_cats/blob/master/output/cat_example.jpg" height="250"> <img src="https://github.com/meng1994412/dogs_vs_cats/blob/master/output/dog_example.jpg" height="250">
 
 Figure 1: Cat (left) and Dog (right) examples from dataset.
 
