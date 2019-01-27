@@ -25,13 +25,8 @@ The dataset is from [Kaggle Dogs vs. Cats](https://www.kaggle.com/c/dogs-vs-cats
 
 Figure 1 shows examples of the cat and the dog.
 
-[//]: # (Image References)
-
-[image1]: ./datasets/kaggle_dogs_vs_cats/train/cat.12.jpg
-[image2]: ./datasets/kaggle_dogs_vs_cats/train/dog.4.jpg
-
-![alt text][image1]
-![alt text][image2]
+<img src="https://github.com/meng1994412/dogs_vs_cats/blob/master/output/cat_example.jpg" height="300">
+<img src="https://github.com/meng1994412/dogs_vs_cats/blob/master/output/dog_example.jpg" height="300">
 
 Figure 1: Cat (left) and Dog (right) examples from dataset.
 
@@ -139,7 +134,8 @@ Figure 2 shows the plot of training loss and accuracy for 75 epochs. Figure 3 de
 
 Figure 2: Plot of training loss and accuracy (training + validation sets).
 
-<img src="https://github.com/meng1994412/dogs_vs_cats/blob/master/output/crop_accuracy.png" width="400">
+
+<img src="https://github.com/meng1994412/dogs_vs_cats/blob/master/output/crop_accuracy.png" width="300">
 
 Figure 3: rank-1 accuracy without/with using over-sampling pre-processor.
 
