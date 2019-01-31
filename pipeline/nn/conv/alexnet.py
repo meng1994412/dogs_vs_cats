@@ -21,7 +21,7 @@ class AlexNet:
 
         # if we are using "channel first", update the input shape
         # and channels dimension
-        if K.image_data_format() == "channel_first":
+        if K.image_data_format() == "channels_first":
             inputShape = (depth, height, width)
             chanDim = 1
 
