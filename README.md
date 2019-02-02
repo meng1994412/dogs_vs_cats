@@ -86,8 +86,8 @@ Table 1 shows the architecture of AlexNet. The activation and batch normalizatio
 | DROPOUT       | 4096            |                         |
 | FC            | 4096            |                         |
 | DROPOUT       | 4096            |                         |
-| FC            | 1000            |                         |
-| softmax       | 1000            |                         |
+| FC            | 2               |                         |
+| softmax       | 2               |                         |
 
 Table 1: Architecture of AlexNet.
 
