@@ -93,7 +93,7 @@ Table 1 shows the architecture of AlexNet. The activation and batch normalizatio
 Table 1: Architecture of AlexNet.
 
 ### Train and evaluate the AlexNet
-The `train_alexnet.py` ([check here](https://github.com/meng1994412/dogs_vs_cats/blob/master/pipeline/nn/conv/alexnet.py)) is responsible for training the model, plotting the training loss and accuracy curve (for both training and validation sets), and serializing the model to disk.
+The `train_alexnet.py` ([check here](https://github.com/meng1994412/dogs_vs_cats/blob/master/train_alexnet.py)) is responsible for training the model, plotting the training loss and accuracy curve (for both training and validation sets), and serializing the model to disk.
 
 The `trainingmonitor.py` ([check here](https://github.com/meng1994412/dogs_vs_cats/blob/master/pipeline/callbacks/trainingmonitor.py)) under `pipeline/callbacks/` directory create a `TrainingMonitor` callback that will be called at the end of every epoch when training a network. The monitor will construct a plot of training loss and accuracy. Applying such callback during training will enable us to babysit the training process and spot overfitting early, allowing us to abort the experiment and continue trying to tune parameters.
 
