@@ -54,6 +54,7 @@ The `croppreprocessor.py` ([check here](https://github.com/meng1994412/dogs_vs_c
 These three pre-processors can help to increase the classification accuracy.
 
 There are some other pre-processors including:
+
 The `simplepreprocessor.py` ([check here](https://github.com/meng1994412/dogs_vs_cats/blob/master/pipeline/preprocessing/simplepreprocessor.py)) under `pipeline/preprocessing/` directory defines a class to change the size of image.
 
 The `aspectawarepreprocessor.py` ([check here](https://github.com/meng1994412/dogs_vs_cats/blob/master/pipeline/preprocessing/aspectawarepreprocessor.py)) under `pipeline/preprocessing/` directory defines a class to change the size of image with respect to aspect ratio of the image.
